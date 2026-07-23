@@ -1,6 +1,6 @@
 cask "clippa" do
-  version "1.0.9"
-  sha256 "af85fca8472e2246729141c68ecc77cd7f2baa6f57fdee152f07e238054f24d8"
+  version "1.0.10"
+  sha256 "ad4bbe949e5f385826d8e9541e7d97a3e3a6164932516086be03ec7c03260364"
 
   url "https://github.com/Vaniawl/Clippa/releases/download/v#{version}/Clippa.app.zip",
       verified: "github.com/Vaniawl/Clippa/"
@@ -14,6 +14,7 @@ cask "clippa" do
 
   zap trash: [
     "~/Library/Application Support/Clippa",
+    "~/Library/Preferences/io.github.vaniawl.Clippa.plist",
     "~/Library/Preferences/com.ivandovhosheia.Clippa.plist",
   ]
 end
