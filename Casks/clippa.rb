@@ -5,10 +5,10 @@ cask "clippa" do
   url "https://github.com/Vaniawl/Clippa/releases/download/v#{version}/Clippa.app.zip",
       verified: "github.com/Vaniawl/Clippa/"
   name "Clippa"
-  desc "Private macOS clipboard history paste panel"
+  desc "Private clipboard history paste panel"
   homepage "https://vaniawl.github.io/Clippa/"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Clippa.app"
 
