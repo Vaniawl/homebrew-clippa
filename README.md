@@ -4,26 +4,26 @@ Install Clippa:
 
 ```bash
 brew tap Vaniawl/clippa
-brew install --cask clippa
+brew install clippa
 ```
 
 Update Clippa:
 
 ```bash
 brew update
-brew upgrade --cask clippa
+brew upgrade clippa
 ```
 
 Uninstall:
 
 ```bash
-brew uninstall --cask clippa
+brew uninstall clippa
 ```
 
 Remove local Clippa history and preferences too:
 
 ```bash
-brew uninstall --zap --cask clippa
+brew uninstall --zap clippa
 ```
 
 Clippa releases live at https://github.com/Vaniawl/Clippa/releases.
