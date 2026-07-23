@@ -1,6 +1,6 @@
 cask "clippa" do
-  version "1.0.11"
-  sha256 "7140efb8e5fbea1890fbf12a870eb5ac2b5571ea4f1133d599cfffa17b087105"
+  version "1.0.12"
+  sha256 "08f047f9614868caecfce271f72492915d263f8f1c47c0c6be960701df7805c3"
 
   url "https://github.com/Vaniawl/Clippa/releases/download/v#{version}/Clippa.app.zip",
       verified: "github.com/Vaniawl/Clippa/"
