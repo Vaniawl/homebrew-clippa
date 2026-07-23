@@ -14,7 +14,7 @@ cask "clippa" do
 
   zap trash: [
     "~/Library/Application Support/Clippa",
-    "~/Library/Preferences/io.github.vaniawl.Clippa.plist",
     "~/Library/Preferences/com.ivandovhosheia.Clippa.plist",
+    "~/Library/Preferences/io.github.vaniawl.Clippa.plist",
   ]
 end
